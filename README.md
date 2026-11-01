@@ -1,4 +1,4 @@
-# Zyntra
+# zyntra-app
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,42 +64,55 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Zyntra provides a read‑only email testing API that lets developers automate sign‑up, password‑reset, magic‑link and OTP flows. By sending test emails to team‑specific addresses, teams can retrieve email content, links and attachments over a simple REST endpoint. The service includes free tools like SPF/DKIM/DMARC checking, an email header analyzer, and SDKs for popular test frameworks. Plans range from a free tier with 150 emails/month to paid tiers with higher limits and longer retention.
+zyntra-app is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
 
-**Areas:** Email Testing · Automated Tests · QA · API · Password Reset · Magic Link
+**Areas:** Company
 
-## Zyntra on APIs.io
+## zyntra-app on APIs.io
 
-Everything profiled for Zyntra is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/zyntra-app/](https://apis.io/providers/zyntra-app/)** — or go straight to one of the APIs or properties below.
+Everything profiled for zyntra-app is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/zyntra-app/](https://apis.io/providers/zyntra-app/)** — or go straight to one of the APIs or properties below.
 
-### APIs (1)
+### APIs (2)
 
-- [Zyntra API](https://apis.io/apis/zyntra-app/zyntra-api/) — Read‑only email testing API allowing automation of sign‑up, password‑reset, magic‑link and OTP flows.
+- [zyntra-app Attachment API](https://apis.io/apis/zyntra-app/zyntra-app-attachment-api/) — The Attachment API from zyntra-app — 2 operation(s) for attachment.
+- [zyntra-app Email API](https://apis.io/apis/zyntra-app/zyntra-app-email-api/) — The Email API from zyntra-app — 2 operation(s) for email.
 
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### Security (1)
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Zyntra App Agentic Access](https://apis.io/agentic-access/zyntra-app/zyntra-app-agentic-access/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Zyntra App Openapi Overlay](https://apis.io/overlays/zyntra-app/zyntra-app-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [zyntra-app API Rules](https://apis.io/rules/zyntra-app/zyntra-app-rules/)
+
+#### Security (2)
 
 Authentication, trust centre, and vulnerability disclosure.
 
+- [Zyntra App Authentication](https://apis.io/security/zyntra-app/zyntra-app-authentication/)
 - [Zyntra App Domain Security](https://apis.io/security/zyntra-app/zyntra-app-domain-security/)
-
-#### Plans and pricing (1)
-
-Published plans, tiers and prices.
-
-- [Zyntra App Plans Pricing](https://apis.io/plans/zyntra-app/zyntra-app-plans-pricing/)
 
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://zyntra.app/)
-- [Documentation](https://docs.zyntra.app)
+- [Documentation](https://docs.zyntra.app/)
 - [Getting started](https://docs.zyntra.app/getting-started)
-- [API reference](https://docs.zyntra.app/api)
 - [Pricing](https://zyntra.app/pricing)
 - [Blog](https://zyntra.app/blog)
 - [Terms of service](https://zyntra.app/terms)
@@ -107,32 +120,32 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 24.7** — emerging · rubric 0.25.0 · scored 2026-10-31
+**Kin Score 40.3** — developing · rubric 0.25.0 · scored 2026-10-31
 
 | Facet | Score |
 |---|---|
-| Discoverability | 53.3 |
-| Contract quality | 0.0 |
-| Contract governance | 0.0 |
+| Discoverability | 45.0 |
+| Contract quality | 40.6 |
+| Contract governance | 79.1 |
 | Operational transparency | 0.0 |
-| Developer ergonomics | 38.1 |
-| Access clarity | 60.0 |
+| Developer ergonomics | 42.1 |
+| Access clarity | 31.6 |
 
-**Agent readiness 3.1** — human-only
+**Agent readiness 35.9** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
-| Spec Presence | — |
-| Agentic Access | — |
+| Spec Presence | yes |
+| Agentic Access | unknown |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
-| Auth Clarity | — |
+| Auth Clarity | bearer (partial credit) |
 | Idempotency | — |
-| Error Semantics | — |
-| OpenAPI Examples | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | verified |
 | Rate Limit Signal | — |
 | Event Surface Described | — |
-| Agent Skills | — |
+| Agent Skills | unknown |
 | Well Known Catalog | — |
 | Consent Identity | — |
 | Agent Card | — |
@@ -141,10 +154,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | — |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
-| Pagination Ratio | na |
-| Operation Distinctiveness | na |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
 
-**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/zyntra-app/](https://apis.io/providers/zyntra-app/).
 
@@ -152,7 +165,7 @@ The rubric is published at [github.com/api-evangelist/kin-score](https://github.
 
 API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Zyntra: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for zyntra-app: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
 ## Open an issue
 
